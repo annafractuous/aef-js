@@ -2,7 +2,7 @@
 var scenes = [
   {
     poem: 'The plan of such a house will be characteristically different from all other houses. It need only be a room.',
-    icon: '8_string-habitable-social-structure-by-numenfor-use_popup.jpg',
+    icon: 'mint.png',
     spec: {
       plant: 'Mint',
       symbolism: 'Hospitality',
@@ -12,12 +12,162 @@ var scenes = [
   },
   {
     poem: 'I am reintroducing species to areas in which they had formerly thrived. Reclaiming. Relocation. Even the accidental.',
-    icon: '168fa7_5bdb6fd4a40a43f3ad9a2780738ba26a-mv2_d_3024_3024_s_4_2.jpg_srz_568_556_85_22_0.50_1.20_0.jpg',
+    icon: 'lavender.png',
     spec: {
       plant: 'Lavender',
       symbolism: 'Devotion',
       usage: 'Restlessness, Insomnia, Nervousness, Depression, Headaches',
       politics: 'Rachel Frank'
+    }
+    },
+  {
+    poem: 'A rally mobilized 1,200 people and resulted in dance, music, muraling, film, poetry...',
+    icon: 'raspberry.png',
+    spec: {
+      plant: 'Raspberry',
+      symbolism: 'Kindness',
+      usage: 'Cervical Health, Childbirth',
+      politics: 'YMPJ'
+    }
+  },
+  {
+    poem: 'Agro-enterprises. Miners. All around the world. Lending.',
+    icon: 'chamomile.png',
+    spec: {
+      plant: 'Chamomile',
+      symbolism: 'Wealth',
+      usage: 'Calming',
+      politics: 'AgroLifeCoin'
+    }
+  },
+  {
+    poem: 'I wrote his project proposal and he made my design in glass.',
+    icon: 'dandelion.png',
+    spec: {
+      plant: 'Dandelion',
+      symbolism: 'Connection',
+      usage: 'Process and Digest Fat',
+      politics: 'Our Goods'
+    }
+  },
+  {
+    poem: 'We are a liquid democracy.',
+    icon: 'ginger.png',
+    spec: {
+      plant: 'Ginger',
+      symbolism: 'Power',
+      usage: 'Ulcers, Nausea, Diarrhea',
+      politics: 'g0v.tw'
+    }
+  },
+  {
+    poem: 'Living as an integral component in our small world. This effort confirms the fact that we rely on the life systems for survival, and at the same time, the ecological systems depend upon our efforts.',
+    icon: 'violet.png',
+    spec: {
+      plant: 'Violet',
+      symbolism: 'Purity',
+      usage: 'Colds, Coughs',
+      politics: 'BiosphereX'
+    }
+  },
+  {
+    poem: 'The system stores and creates energy throughout the day. Any extra energy flows back onto the grid. It is self-healing.',
+    icon: 'marigold.png',
+    spec: {
+      plant: 'Marigold',
+      symbolism: 'The Sun',
+      usage: 'Anti-Fungal, Anti-Septic',
+      politics: 'Solar City'
+    }
+  },
+  {
+    poem: 'Coordinated patterns of greater and greater diversity.',
+    icon: 'rose.png',
+    spec: {
+      plant: 'Rose',
+      symbolism: 'Passion',
+      usage: 'Anti-Depressant, Anti-Spasmodic, Aphrodisiac',
+      politics: 'Biome Arts'
+    }
+  },
+  {
+    poem: 'The shocks: earthquakes, fires, floods, etc. The stresses that weaken the fabric of a city on a day to day or cyclical basis: high unemployment, endemic violence, chronic food and water shortages.',
+    icon: 'bee.png',
+    spec: {
+      plant: 'Bee',
+      symbolism: 'Diligence',
+      usage: 'Anti-Septic',
+      politics: '100 Resilient Cities'
+    }
+  },
+  {
+    poem: 'In every way, shape, and form, we are at war.',
+    icon: 'elderflower.png',
+    spec: {
+      plant: 'Elderflower',
+      symbolism: 'Fire',
+      usage: 'Cold, Flu, Congestion',
+      politics: 'Mary Mattingly'
+    }
+  },
+  {
+    poem: 'Repositories are places where we can share our work with the world and solicit feedback, while others can fork the story and make their own variation.',
+    icon: 'ant.png',
+    spec: {
+      plant: 'Ant',
+      symbolism: 'Collectivity',
+      usage: 'n/a',
+      politics: 'Github'
+    }
+  },
+  {
+    poem: 'We are dynamically prepared for the rapid changes occurring in our global climate, energy, and economic systems. Families, communities, businesses, and governments work collaboratively for a graceful and ethical transition.',
+    icon: 'apple.png',
+    spec: {
+      plant: 'Apple',
+      symbolism: 'Immortality',
+      usage: 'Cancer, Hypertension, Diabetes, Heart Disease',
+      politics: 'Appleseed Permaculture'
+    }
+  },
+  {
+    poem: 'Fieldworks. Lead poisoning. Pop up bookstore. Rebel coffee service. Bioremediation.',
+    icon: 'pear.png',
+    spec: {
+      plant: 'Pear',
+      symbolism: 'Fertility',
+      usage: 'Diaretic, Anaglesic',
+      politics: 'A Blade of Grass'
+    }
+  },
+  {
+    poem: 'A floating barge, a functional model. A space for human enjoyment of the water.',
+    icon: 'lemon.png',
+    spec: {
+      plant: 'Lemon',
+      symbolism: 'Fidelity',
+      usage: 'Anti-Septic, Fever, Dental Care, Weight Loss',
+      politics: 'Hyphae'
+    }
+  },
+  {
+    poem: 'A climate stabilizing agricultural system.',
+    icon: 'fennel.png',
+    spec: {
+      plant: 'Fennel',
+      symbolism: 'Boldness',
+      usage: 'Anti-Spasmodic, Anti-Depressant, Anti-Microbial',
+      politics: 'Experimental Farm Network'
+    }
+  },
+  {
+    poem: 'Resilience',
+    icon: 'oregano.png',
+    spec: {
+      plant: 'Oregano',
+      symbolism: 'Tranquility',
+      usage: 'Anti-Bacterial, Anti-Inflamatory, Cancer',
+      politics: 'Eco Trust'
     }
   }
 ]

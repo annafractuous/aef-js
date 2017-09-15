@@ -1,8 +1,31 @@
 body {
   margin: 0;
+  background-color: black;
+}
+
+/*
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+standardize image sizes
+get a good font
+set the right font size
+adjust the layout a little (so things breathe)
+make sizes %s?
+*/
+
+#scene {
+  display: flex;
+  width: 800px;
+  margin: 0 auto;
+}
+#poem {
+  width: 200px;
+  color: white;
 }
 #icon {
   width: 400px;
+}
+#spec{
+  color: white;
 }
 
 /* https://stackoverflow.com/questions/23856088/infinite-flip-image-using-css3-3d */
