@@ -20,6 +20,7 @@ main {
 
 #scene {
   display: flex;
+  align-items: center;
   margin: 0 auto;
   font-family: myFirstFont;
   font-size: 200%;
