@@ -3,29 +3,32 @@ body {
   background-color: black;
 }
 
-/*
-https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-standardize image sizes
-get a good font
-set the right font size
-adjust the layout a little (so things breathe)
-make sizes %s?
-*/
+@font-face {
+  font-family: myFirstFont;
+  src: url(Neou-Bold.ttf);
+}
 
 #scene {
   display: flex;
-  width: 800px;
+  width: 1400px;
   margin: 0 auto;
+  font-family: myFirstFont;
+  font-size: 200%;
 }
 #poem {
-  width: 200px;
+  width: 300px;
   color: white;
+  padding: 50px;
 }
 #icon {
   width: 400px;
+  padding: 50px;
+
 }
 #spec{
+  width: 300px;
   color: white;
+  padding: 50px;
 }
 
 /* https://stackoverflow.com/questions/23856088/infinite-flip-image-using-css3-3d */

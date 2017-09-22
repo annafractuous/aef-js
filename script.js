@@ -234,10 +234,10 @@ function draw() {
   }).join('')
 
   var specHTML = ''
-  specHTML += makeSpecSectionHTML('Plant', spec.plant)
-  specHTML += makeSpecSectionHTML('Symbolism', spec.symbolism)
-  specHTML += makeSpecSectionHTML('Medicinal Use', spec.usage)
-  specHTML += makeSpecSectionHTML('Political Pairing', spec.politics)
+  specHTML += makeSpecSectionHTML('Plant:', spec.plant)
+  specHTML += makeSpecSectionHTML('Symbolism:', spec.symbolism)
+  specHTML += makeSpecSectionHTML('Medicinal Use:', spec.usage)
+  specHTML += makeSpecSectionHTML('Political Pairing:', spec.politics)
 
   // https://stackoverflow.com/questions/11637582/fading-a-paragraph-in-word-by-word-using-jquery
   $poem.html(poemHTML).children().hide().each(function(i) {
