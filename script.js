@@ -326,14 +326,14 @@ function init() {
   $poem = $('#poem')
   $icon = $('#icon')
   $spec = $('#spec')
-  draw()
+  drawEntry()
 }
 
 function makeSpecSectionHTML(title, content) {
   return '<div class="section">' + '<div class="title">' + title + '</div>' + '<div class="content">' + content + '</div>' + '</div>'
 }
 
-function draw() {
+function drawEntry() {
   $poem.empty().show()
   $icon.empty().show()
   $spec.empty().show()
@@ -342,7 +342,7 @@ function draw() {
   var icon = scenes[currentIndex].icon
   var spec = scenes[currentIndex].spec
 
-  $icon.html($('<img>').attr('src', 'assets/' + icon)).children().hide().fadeIn(fadeInTime.icon.image)
+  $icon.html($('<img>').attr('src', 'templates/aef-js/assets/' + icon)).children().hide().fadeIn(fadeInTime.icon.image)
 
   console.log('Draw %c' + spec.plant, 'font-weight: bold')
 
@@ -373,7 +373,7 @@ function draw() {
         console.log('Scene completed')
 
         currentIndex = currentIndex + 1 >= scenes.length ? 0 : currentIndex + 1
-        draw()
+        drawEntry()
         console.log('%casync0', 'color: #aaa')
       })
     })
